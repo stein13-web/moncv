@@ -1,0 +1,132 @@
+*{
+    background: #d3b6b6;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* ceci sont les coordonnées de mon entête de cv  */
+
+h2{
+    text-align: right;
+    
+}
+
+.titlecv {
+    text-align: center;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+
+.email {
+   color: rgb(26, 134, 134);
+}
+.email:hover{
+    color: rgb(177, 52, 52);
+
+}
+
+section{
+    padding: 30px;
+}
+
+
+/* ceci est le corps de mon cv*/
+
+main {
+   flex-wrap: wrap;
+   padding-left: 100px;
+
+}
+
+section{
+    max-width: auto;
+    padding: auto 85px;
+}
+
+.titles {
+    background: rgb(120, 187, 241);
+    text-align: left;
+    font-weight: 30px;
+    border: 2px solid black;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.sub-titles {
+    height: 20px;
+    color: royalblue;
+    
+}
+
+li{
+    text-align: justify;
+}
+
+.number{
+    font-weight: bolder;
+}
+
+.left{
+    padding-left: 25px;
+
+}
+
+.right{
+   
+    line-height: 30px;
+   padding-left: 300px; 
+   margin-top: -120px;
+
+}
+
+#texto{
+    float: left;
+    padding-top: 70px;
+    margin-bottom: -50px;
+}
+
+span.text{
+   line-height: 49px;
+}
+
+
+img{
+    display: block;
+    border-radius: 10px;
+}
+
+/* responsive */
+
+@media (max-width:1000px){
+   h1, h2, .email, p {
+    
+       text-align: center;
+   }
+   img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   p.titlecv{
+       font-size: 30px;
+       height: 150px;
+       width: auto;
+   }
+   main{
+       max-width: auto;
+       padding-left:0;
+       padding-top: 0;
+   }
+
+
+   .number{
+       width: auto;
+       height: auto;
+   }
+}
+
